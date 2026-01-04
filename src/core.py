@@ -319,7 +319,7 @@ class IRCollector:
         filepath = self.save_results()
         
         print(f"\n{Colors.CYAN}{'─' * 50}{Colors.RESET}")
-        print(f"{Colors.GREEN}✓ Collection complete!{Colors.RESET}")
+        print(f"{Colors.GREEN}[OK] Collection complete!{Colors.RESET}")
         print(f"  Output: {filepath}")
         
         return str(filepath)
@@ -364,7 +364,7 @@ def demo_mode():
         time.sleep(0.3)
     
     print(f"\n{Colors.CYAN}{'─' * 50}{Colors.RESET}")
-    print(f"{Colors.GREEN}✓ Collection complete!{Colors.RESET}")
+    print(f"{Colors.GREEN}[OK] Collection complete!{Colors.RESET}")
     print(f"  Output: ./ir_collection/ir_collection_20240115_103045.json")
 
 
